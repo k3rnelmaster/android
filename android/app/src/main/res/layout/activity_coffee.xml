@@ -16,18 +16,21 @@
         android:layout_height="wrap_content">
 
         <Button
+            android:id="@+id/minus_button"
             android:layout_width="45dp"
             android:layout_height="45dp"
             android:layout_marginBottom="16dp"
             android:text="-" />
 
         <TextView
+            android:id="@+id/quantity_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="8dp"
             android:text="0" />
 
         <Button
+            android:id="@+id/plus_button"
             android:layout_width="45dp"
             android:layout_height="45dp"
             android:text="+" />
@@ -42,6 +45,7 @@
         android:textAppearance="?android:textAppearanceMedium" />
 
     <TextView
+        android:id="@+id/result_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
@@ -49,6 +53,7 @@
         android:textAppearance="?android:textAppearance" />
 
     <Button
+        android:id="@+id/order_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Order"
